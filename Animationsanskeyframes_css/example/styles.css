@@ -1,0 +1,41 @@
+
+@keyframes moveAround{
+   0%,100%{
+     left:0px;
+     right:0px;
+     background-color: red;
+   }
+   25%{
+    left: 200px;
+    top:0px;
+    background-color: green;
+   }
+   50%{
+    left: 200px;
+    top: 200px;
+    background-color: blue;
+    border-radius: 100px;
+
+   }
+   75%{
+    left:0px;
+    top: 200px;
+    background-color: yellow;
+   }
+}
+.box{
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 60px;
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position:relative;
+    animation-name: moveAround;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}

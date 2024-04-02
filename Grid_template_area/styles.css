@@ -1,0 +1,35 @@
+.container {
+    background-color: #e2e2e2;
+    padding: 10px;
+    display: grid;
+    height: 100vw;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px 10px;
+    grid-template-areas: 
+       "header header header header"
+       "sidebar . content content"
+       "footer footer footer footer";
+  }
+
+.item {
+    background-color: tomato;
+    padding: 5px;
+    color: white;
+}
+
+.item-1 {
+    grid-area: header;
+}
+
+.item-2 {
+    grid-area: content;
+}
+
+.item-3 {
+    grid-area: slidebar;
+}
+
+.item-4 {
+    grid-area: footer;
+}

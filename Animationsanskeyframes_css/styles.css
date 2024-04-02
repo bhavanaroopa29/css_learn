@@ -1,0 +1,20 @@
+
+@keyframes moveAround{
+    from{
+        left: 0px;
+    }
+    to{
+        left: 400px;
+    }
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position:relative;
+    animation-name: moveAround;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

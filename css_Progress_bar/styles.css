@@ -1,0 +1,36 @@
+body{
+    margin: 20px;
+}
+
+label{
+    font-family: sans-serif;
+    margin-right: 10px;
+}
+
+progress{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(121, 78, 63);
+}
+
+progress[value]::-webkit-progress-bar{
+    background-color: rgb(121, 78, 63);
+
+}
+
+progress[value]::-webkit-progress-value{
+    border-top-right-radius:10px ;
+    border-top-left-radius: 10px;
+    background-image: linear-gradient(45deg, #5c4282 25%, #956ac9 25%, #956ac9 50%, #5c4282 50%, #5c4282 75%, #956ac9 75%, #956ac9 100%);
+background-size: 56.57px 56.57px;
+}
+progress[value]::-moz-progress-bar{
+    border-top-right-radius:10px ;
+    border-top-left-radius: 10px;
+    background-image: linear-gradient(45deg, #5c4282 25%, #956ac9 25%, #956ac9 50%, #5c4282 50%, #5c4282 75%, #956ac9 75%, #956ac9 100%);
+background-size: 56.57px 56.57px;
+}

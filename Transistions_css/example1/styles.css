@@ -1,0 +1,13 @@
+.box{
+    width:200px;
+    height:200px;
+    background-color: blueviolet;
+    margin: 0px;
+    padding: 10px;
+    transition: all 1s ease-in-out;
+}
+
+.box:hover{
+    margin: 20px;
+    padding: 50px;
+}

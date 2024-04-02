@@ -1,0 +1,14 @@
+.container{
+    background-color:#e2e2e2;
+    padding: 10px;
+    display:grid;
+    grid-template-columns:200px 200px auto;
+    grid-template-rows:repeat(3,200px);
+    grid-gap:10px 10px
+}
+
+.item{
+    background-color: tomato;
+    padding: 5px;
+    color: white;
+}

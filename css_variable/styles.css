@@ -1,0 +1,17 @@
+body{
+    --mycolor:#a1b2c3;
+    --mainFontSize:32px;
+}
+
+.parent{
+    font-size: var(--mainFontSize);
+
+}
+
+.child-level1{
+    color:var(--mycolor);
+}
+
+.child-level2{
+    color:var(--mycolor);
+}

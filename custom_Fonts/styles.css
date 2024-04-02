@@ -1,0 +1,9 @@
+@font-face {
+    font-family:"fontb";
+    src: url(font/Oswald-Regular.ttf);
+}
+
+.parent h1 ,.parent h2, .parent h3{
+    font-family:"fontb";
+    color: rgb(104, 11, 104);
+}
